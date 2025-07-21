@@ -49,7 +49,7 @@ ul {
 }
 
 .nav-link:hover,
-.nav-link:active {
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -71,9 +71,11 @@ ul {
   color: #434455;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
+
 .hero {
   background-color: #2e2f42;
   width: 1440px;
