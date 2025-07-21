@@ -14,8 +14,6 @@ ul {
 }
 
 .navigation {
-  width: 1440px;
-  height: 72px;
 }
 
 .logo-navigation {
@@ -78,8 +76,6 @@ ul {
 
 .hero {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
 .hero-title {
@@ -92,11 +88,6 @@ ul {
 }
 
 .hero-button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   border: none;
   font-weight: 500;
@@ -117,7 +108,6 @@ ul {
 }
 
 .section-title-text {
-  display: none;
 }
 
 .section-title {
@@ -213,8 +203,6 @@ ul {
 }
 
 .footer {
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
 }
 
