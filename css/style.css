@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 a {
@@ -57,11 +58,13 @@ ul {
 .nav-link:hover {
   color: #404bbf;
 }
-.nav-link-studio:active {
+.nav-link-studio:active,
+.nav-link-studio:focus {
   color: #404bbf;
 }
 
 .contacts {
+  font-style: normal;
 }
 
 .contacts-list {
@@ -71,7 +74,6 @@ ul {
 }
 
 .contacts-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -91,7 +93,7 @@ ul {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: white;
@@ -111,9 +113,11 @@ ul {
   letter-spacing: 0.04em;
   color: white;
   text-align: center;
+  cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -127,8 +131,9 @@ ul {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -156,9 +161,11 @@ ul {
 }
 
 .team-section {
+  background-color: #f4f4fd;
 }
 
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-item {
